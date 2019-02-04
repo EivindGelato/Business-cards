@@ -1,0 +1,24 @@
+{
+  "name": "bc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "gelato-api": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "handlebars": "^4.0.12",
+    "node-json-color-stringify": "^1.1.0",
+    "print-api": "^0.5.1",
+    "superagent": "^4.0.0-beta.5",
+    "tracer": "^0.9.4"
+  }
+}
